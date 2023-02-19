@@ -1,0 +1,45 @@
+{
+  "name": "@tinylight/rehype-img-figure",
+  "version": "0.1.0",
+  "description": "publish node.js package test",
+  "author": "Weiliang Liu <lwltinylight@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wei-light/test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wei-light/test/issues"
+  },
+  "homepage": "https://github.com/wei-light/test#readme",
+  "keywords": [
+    "unified",
+    "markdown",
+    "rehype",
+    "rehype-plugin"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "hast": "^1.0.0",
+    "hastscript": "^7.2.0",
+    "rehype-stringify": "^9.0.3",
+    "remark-mdx-frontmatter": "^2.1.1",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "unified": "^10.1.2",
+    "unist-util-visit": "^4.1.2"
+  }
+}
