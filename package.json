@@ -1,6 +1,6 @@
 {
   "name": "@tinylight/rehype-img-figure",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "publish node.js package test",
   "author": "Weiliang Liu <lwltinylight@gmail.com>",
   "license": "MIT",
